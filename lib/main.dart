@@ -35,7 +35,6 @@ class _AuthScreenState extends State<AuthScreen> {
       backgroundColor: const Color(0xFF141215),
 
       body: Center(
-        
         child: Container(
           height: 500,
           width: 400,
@@ -43,8 +42,8 @@ class _AuthScreenState extends State<AuthScreen> {
           child: Column(
             children: [
               CircleAvatar(
-                radius: 15,
-                backgroundColor: Colors.white,
+                radius: 25,
+                backgroundColor: Color(0xff121415),
 
                 child: Image.asset(
                   'assets/spotify.jpg',
@@ -58,7 +57,7 @@ class _AuthScreenState extends State<AuthScreen> {
                 'Millions of songs.',
                 style: TextStyle(
                   color: Colors.white,
-                  fontSize: 20,
+                  fontSize: 25,
                   fontWeight: FontWeight.bold,
                 ),
               ),
@@ -66,7 +65,7 @@ class _AuthScreenState extends State<AuthScreen> {
                 'Free on Spotify.',
                 style: TextStyle(
                   color: Colors.white,
-                  fontSize: 20,
+                  fontSize: 25,
                   fontWeight: FontWeight.bold,
                 ),
               ),
@@ -82,7 +81,7 @@ class _AuthScreenState extends State<AuthScreen> {
                   minimumSize: Size(double.infinity, 55),
                 ),
               ),
-              SizedBox(width: double.infinity, height: 5),
+              SizedBox(width: double.infinity, height: 15),
               ElevatedButton(
                 onPressed: () {},
                 style: ElevatedButton.styleFrom(
@@ -114,7 +113,7 @@ class _AuthScreenState extends State<AuthScreen> {
                   ],
                 ),
               ),
-              SizedBox(width: double.infinity, height: 5),
+              SizedBox(width: double.infinity, height: 15),
               ElevatedButton(
                 onPressed: () {},
                 style: ElevatedButton.styleFrom(
@@ -146,7 +145,7 @@ class _AuthScreenState extends State<AuthScreen> {
                   ],
                 ),
               ),
-              SizedBox(width: double.infinity, height: 5),
+              SizedBox(width: double.infinity, height: 15),
               ElevatedButton(
                 onPressed: () {},
                 style: ElevatedButton.styleFrom(
@@ -178,7 +177,7 @@ class _AuthScreenState extends State<AuthScreen> {
                   ],
                 ),
               ),
-              SizedBox(height: 5),
+              SizedBox(height: 15),
               ElevatedButton(
                 onPressed: () {},
                 child: Text(
